@@ -44,7 +44,7 @@ fi
 while true; do
   echo "--- SERVER_FIFO_LOOP: Waiting for connection on port $PORT... ---" >&2
   echo "--- SERVER_FIFO_LOOP: Executing: cat \"$FIFO_PATH\" | \"$HANDLER_SCRIPT\" | \"$NC_EXEC\" -lp \"$PORT\" > \"$FIFO_PATH\" ---" >&2
-  # TODO: someone please help me shush this line. This is POSIX
+  # shellcheck disable=SC2094,SC2002
   cat "$FIFO_PATH" | "$HANDLER_SCRIPT" | "$NC_EXEC" -lp "$PORT" >"$FIFO_PATH"
   echo "--- SERVER_FIFO_LOOP: nc process finished or connection closed. Restarting loop. ---" >&2
   # Small delay to prevent a very tight loop if nc fails immediately (e.g., port in use)
