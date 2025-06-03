@@ -1,6 +1,6 @@
 # 🍳 Eggplant Shell Server 🍆
 
-[![POSIX Shell CI](https://github.com/ruvasqm/posix_server/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/<YOUR_USERNAME>/<YOUR_REPO_NAME>/actions/workflows/shellcheck.yml)
+[![POSIX Shell CI](https://github.com/ruvasqm/posix_server/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/ruvasqm/posix_server/actions/workflows/shellcheck.yml)
 
 A tiny, adorable HTTP echo server written entirely in POSIX shell! 🐚✨
 
