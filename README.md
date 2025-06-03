@@ -1,5 +1,7 @@
 # 🍳 Eggplant Shell Server 🍆
 
+[![POSIX Shell CI](https://github.com/ruvasqm/posix_server/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/<YOUR_USERNAME>/<YOUR_REPO_NAME>/actions/workflows/shellcheck.yml)
+
 A tiny, adorable HTTP echo server written entirely in POSIX shell! 🐚✨
 
 This little server listens on a port and echoes back information about the requests it receives. It's a fun exploration of what you can do with basic shell scripting and tools like `nc` and FIFOs.
@@ -26,8 +28,8 @@ Perfect for:
 
 1.  **Clone the repository (or download the files):**
     ```bash
-    git clone https://github.com/ruvasqm/posix-server.git
-    cd posix-server
+    git clone https://github.com/ruvasqm/posix_server.git
+    cd posix_server
     ```
 
 2.  **Make the scripts executable:**
